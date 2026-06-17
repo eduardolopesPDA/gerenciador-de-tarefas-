@@ -1,4 +1,3 @@
-#Gerenciador de Tarefas
 Bem-vindo ao Gerenciador de Tarefas! Este projeto foi desenvolvido com o objetivo de simplificar a sua rotina, oferecendo uma solução ágil e intuitiva para o gerenciamento de demandas diárias. Inspirado na metodologia Kanban, nossa aplicação permite que você visualize o fluxo de trabalho de forma clara, garantindo que nenhuma tarefa seja esquecida e que o seu progresso seja mantido sob controle.
 
 <h1>🚀 Tecnologias Utilizadas</h1>
