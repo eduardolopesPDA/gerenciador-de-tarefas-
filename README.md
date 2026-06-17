@@ -1,16 +1,38 @@
-# gerenciador-de-tarefas-
+Gerenciador de Tarefas Kanban
+Bem-vindo ao Gerenciador de Tarefas Kanban! Este projeto foi desenvolvido com o objetivo de simplificar a sua rotina, oferecendo uma solução ágil e intuitiva para o gerenciamento de demandas diárias. Inspirado na metodologia Kanban, nossa aplicação permite que você visualize o fluxo de trabalho de forma clara, garantindo que nenhuma tarefa seja esquecida e que o seu progresso seja mantido sob controle.
 
-Este projeto foi feito com o propósito de ajudar os usuários a organizar suas tarefas de uma forma rapida e pratíca! Com o estilo do famoso quadro Kanban. Assim os usuários irão conseguir manter suas tarefas organizadas.
+🚀 Tecnologias Utilizadas
+Para a construção desta aplicação, optamos por um stack focado em performance e simplicidade:
 
-<h1>Tecnologias utilizadas</h1>
-<ul>
-  JavaScript
-  HTML
-  CSS
-</ul>
+HTML5 🌐 (Estruturação de conteúdo)
 
-<h1>como utilizar o gerenciador de tarefas?</h1>
+CSS3 🎨 (Estilização e design responsivo)
 
-<p>utilizar o gerenciador de tarefas é muito simples! Então vamos entender como como ele funciona na pratica! <break>Assim que você entar no gerenciador você vai ver três quadros: Tarefas, Tarefas em andamento e Tarefas concluidas. Você pode criar tarefas em qualquer um desses três quadros clicando no botão "Criar tarefa" que ira ficar na base dos quadros. E caso você queira editar ou excluir qualquer tarefa de um do seus quadros basta clicar nos três pontinhos no canto superior direito de qualquer um dos quadros, e selecionar se você deseja editar ou excluir a tarefa. pensando na praticidade e no estilo do Kanban com Post-it, se você clicar e arrastar qualquer umas das suas tarefas em qualquer um dos seus quadros você consgue mover eles sem precisar ficar apagando e criando novas tarefas para mudar o status da sua tarefa!! </break></p>
+JavaScript ⚡ (Lógica de interação e manipulação do DOM)
 
-(referencias academicas - a fazer)
+🛠️ Como utilizar o Gerenciador
+Utilizar o gerenciador é uma experiência intuitiva, pensada para que você perca menos tempo organizando e mais tempo realizando. Confira o passo a passo:
+
+1. Estrutura do Quadro
+Ao acessar o painel, você encontrará três colunas principais que representam o seu fluxo de trabalho:
+
+Tarefas: Onde ficam as demandas que ainda aguardam início.
+
+Em Andamento: Onde você centraliza o que está sendo executado no momento.
+
+Concluídas: Onde o trabalho finalizado é armazenado para sua conferência.
+
+2. Criando Tarefas
+Para adicionar um novo item, basta localizar o botão "Criar tarefa" localizado na parte inferior de qualquer uma das colunas. Ao clicar, um novo card será adicionado ao quadro selecionado.
+
+3. Movimentação Ágil (Drag and Drop)
+A essência do nosso Kanban é a praticidade. Você não precisa deletar ou recriar itens para mudar seu status:
+
+Clique, arraste e solte: Mova qualquer card entre as colunas conforme o progresso da sua tarefa. O sistema atualizará o status automaticamente.
+
+4. Gestão de Tarefas
+Caso precise ajustar detalhes ou remover um item:
+
+Clique nos três pontinhos localizados no canto superior direito do card da tarefa.
+
+No menu suspenso, selecione "Editar" para alterar as informações ou "Excluir" para remover o item permanentemente.
