@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Gerenciador de Projetos Kanban!</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciador de Projetos Kanban!</h1>
+        <div class="task-form">
+            <input type="text" id="taskInput" placeholder="Digite a tarefa...">
+            <button id="addTaskButton">Adicionar Tarefa</button>
+        </div>
+        <div class="task-columns">
+            <div class="task-column" id="todoColumn">
+                <h2>A Fazer</h2>
+                <ul id="todoList"></ul>
+            </div>
+            <div class="task-column" id="inProgressColumn">
+                <h2>Em Progresso</h2>
+                <ul id="inProgressList"></ul>
+            </div>
+            <div class="task-column" id="doneColumn">
+                <h2>Concluído</h2>
+                <ul id="doneList"></ul>
+            </div>
+        </div>
+</body>
+</html>
