@@ -1,4 +1,4 @@
-Bem-vindo ao Gerenciador de Tarefas! Este projeto foi desenvolvido com o objetivo de simplificar a sua rotina, oferecendo uma solução ágil e intuitiva para o gerenciamento de demandas diárias. Inspirado na metodologia Kanban, nossa aplicação permite que você visualize o fluxo de trabalho de forma clara, garantindo que nenhuma tarefa seja esquecida e que o seu progresso seja mantido sob controle.
+Bem-vindo ao Gerenciador de Tarefas! Este projeto está sendo desenvolvido com o objetivo de simplificar a sua rotina, oferecendo uma solução ágil e intuitiva para o gerenciamento de demandas diárias. Inspirado na metodologia Kanban, nossa aplicação permite que você visualize o fluxo de trabalho de forma clara, garantindo que nenhuma tarefa seja esquecida e que o seu progresso seja mantido sob controle.
 
 <h1>⚙️ Metodologia Ágil (Scrum)</h1>
 Para garantir a qualidade, a previsibilidade e a entrega contínua, este projeto é desenvolvido sob a metodologia Scrum! Com está metodologia a gestão do projeto fica mais fácil, eao aplicação do Scrum permite dividir o desenvolvimento em ciclos curtos e objetivos, facilitando o acompanhamento e a adaptação do projeto!
@@ -11,7 +11,7 @@ O framework permite adaptar o escopo conforme novos requisitos surgem ou dificul
 Dividimos o desenvolvimento em 3 Sprints de 1 semana cada, garantindo entregas parciais e incrementais.
 
 <h2>Visibilidade</h2>
-Utilizamos o GitHub Projects para manter um quadro Kanban atualizado, o que nos proporciona uma visão clara do que está planejado (Backlog), em progresso (Doing) e finalizado (Done).
+Utilizamos o GitHub Projects para manter um quadro Kanban atualizado, o que nos proporciona uma visão clara do que está planejado (Backlog/to-do), em progresso (Doing) e finalizado (Done).
 
 <h2>Disciplina e Foco</h2>
 Com sprints curtas, somos forçados a priorizar as funcionalidades essenciais, alinhando a prática de desenvolvimento com os conceitos estudados de engenharia de software.
@@ -21,7 +21,7 @@ Com sprints curtas, somos forçados a priorizar as funcionalidades essenciais, a
 
 Para a construção desta aplicação, optamos por uma stack focada em performance e simplicidade:
 
-HTML5 🌐 (Estruturação de conteúdo)
+HTML5 <i class="fa-brands fa-html5"></i> (Estruturação de conteúdo)
 
 CSS3 🎨 (Estilização e design responsivo)
 
