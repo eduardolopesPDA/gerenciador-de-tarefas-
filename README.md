@@ -50,8 +50,8 @@ A essência do nosso gerenciador é a praticidade e simplicidade. Você não pre
 Clique, arraste e solte: Mova qualquer card entre as colunas conforme o progresso da sua tarefa. O sistema atualizará o status da sua tarefa automaticamente!
 
 <h2>4. Gestão de Tarefas</h2>
-Caso precise ajustar detalhes ou remover um item:
+Caso precise ajustar detalhes ou remover uma tarefa:
 
 Clique nos três pontinhos localizados no canto superior direito do card da tarefa.
 
-No menu suspenso, selecione "Editar" para alterar as informações ou "Excluir" para remover o item permanentemente!
+No menu suspenso, selecione "Editar" para alterar as informações ou "Excluir" para remover a tarefa permanentemente!
