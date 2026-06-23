@@ -22,14 +22,11 @@ Com sprints curtas, somos forçados a priorizar as funcionalidades essenciais, a
 Para a construção desta aplicação, optamos por uma stack focada em performance e simplicidade:
 
 HTML5 <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/9156f521-d7cb-4420-b97e-cd46b2fec9f7" />
- (Estruturação de conteúdo)
+(Estruturação de conteúdo)
 
-CSS3 🎨 <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/6d751117-93a2-44b0-affb-c4c24ddfb13b" />
- (Estilização e design responsivo)
+CSS3 🎨 <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/4f0a845c-3b6d-440f-85d5-c0d35db2d29e" />(Estilização e design responsivo)
 
-JavaScript <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/53df0591-4f7b-4fc0-b74c-d3ac19d572b7" />
-
-⚡ (Lógica de interação e manipulação do DOM)
+JavaScript <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/53df0591-4f7b-4fc0-b74c-d3ac19d572b7" />⚡ (Lógica de interação e manipulação do DOM)
 
 <h1>🛠️ Como utilizar o Gerenciador</h1>
 Utilizar o gerenciador é uma experiência intuitiva, pensada para que você perca menos tempo organizando e mais tempo realizando. Confira o passo a passo:
