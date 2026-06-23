@@ -28,8 +28,8 @@ CSS3 🎨 <img width="30" height="30" alt="image" src="https://github.com/user-a
 
 JavaScript <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/53df0591-4f7b-4fc0-b74c-d3ac19d572b7" />⚡ (Lógica de interação e manipulação do DOM)
 
-<h1><img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/bd9bf05e-f967-4deb-8590-dab5da92b2c2" />
- Como utilizar o Gerenciador</h1>
+<h1>Como utilizar o Gerenciador <img width="45" height="45" alt="image" src="https://github.com/user-attachments/assets/e7f54f34-5759-46c3-a150-d736b13a693e" />
+</h1>
 Utilizar o gerenciador é uma experiência intuitiva, pensada para que você perca menos tempo organizando e mais tempo realizando. Confira o passo a passo:
 
 <h2>1. Estrutura do Quadro</h2>
