@@ -21,7 +21,7 @@ Com sprints curtas, somos forçados a priorizar as funcionalidades essenciais, a
 
 Para a construção desta aplicação, optamos por uma stack focada em performance e simplicidade:
 
-HTML5 <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/9156f521-d7cb-4420-b97e-cd46b2fec9f7" />
+HTML5 <img width="40" height="40" alt="image" src="https://github.com/user-attachments/assets/9156f521-d7cb-4420-b97e-cd46b2fec9f7" />
  (Estruturação de conteúdo)
 
 CSS3 🎨 (Estilização e design responsivo)
