@@ -27,7 +27,8 @@ HTML5 <img width="30" height="30" alt="image" src="https://github.com/user-attac
 CSS3 🎨 <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/6d751117-93a2-44b0-affb-c4c24ddfb13b" />
  (Estilização e design responsivo)
 
-JavaScript <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/0f5973a3-a4d7-4d51-b4f6-d4996ca827f6" />
+JavaScript <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/53df0591-4f7b-4fc0-b74c-d3ac19d572b7" />
+
 ⚡ (Lógica de interação e manipulação do DOM)
 
 <h1>🛠️ Como utilizar o Gerenciador</h1>
