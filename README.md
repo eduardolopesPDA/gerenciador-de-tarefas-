@@ -9,9 +9,9 @@ Para a construção desta aplicação, optamos por uma stack focada em performan
 HTML5 <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/9156f521-d7cb-4420-b97e-cd46b2fec9f7" />
 (Estruturação de conteúdo)
 
-CSS3 🎨 <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/4f0a845c-3b6d-440f-85d5-c0d35db2d29e" />(Estilização e design responsivo)
+CSS3  <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/4f0a845c-3b6d-440f-85d5-c0d35db2d29e" />(Estilização e design responsivo)
 
-JavaScript <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/53df0591-4f7b-4fc0-b74c-d3ac19d572b7" />⚡ (Lógica de interação e manipulação do DOM)
+JavaScript <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/53df0591-4f7b-4fc0-b74c-d3ac19d572b7" /> (Lógica de interação e manipulação do DOM)
 
 <h1>Como utilizar o Gerenciador <img width="45" height="45" alt="image" src="https://github.com/user-attachments/assets/e7f54f34-5759-46c3-a150-d736b13a693e" />
 </h1>
