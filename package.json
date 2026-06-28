@@ -4,10 +4,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+
+    
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
