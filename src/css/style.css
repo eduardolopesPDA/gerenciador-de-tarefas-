@@ -1,0 +1,114 @@
+/* Variáveis de Cores para o Tema Dark/Light */
+        :root {
+            --bg-color: #1e1e1e;
+            --text-color: #ffffff;
+            --header-bg: #2d2d2d;
+            --board-bg: #333333;
+            --btn-bg: #555555;
+            --btn-hover: #777777;
+            --task-bg: #444444;
+            --border-color: #ffffff;
+        }
+
+        .light-mode {
+            --bg-color: #f4f4f9;
+            --text-color: #333333;
+            --header-bg: #e0e0e0;
+            --board-bg: #ffffff;
+            --btn-bg: #cccccc;
+            --btn-hover: #aaaaaa;
+            --task-bg: #f9f9f9;
+            --border-color: #333333;
+        }
+
+        /* Reset e Estilos Globais */
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+        body { background-color: var(--bg-color); color: var(--text-color); padding: 20px; transition: 0.3s; }
+
+        /* Cabeçalho */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 2px solid var(--border-color);
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .header-buttons button { margin-left: 10px; }
+
+        /* Botões Gerais */
+        button {
+            background-color: var(--btn-bg);
+            color: var(--text-color);
+            border: 2px solid var(--border-color);
+            padding: 8px 15px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+        button:hover { background-color: var(--btn-hover); }
+
+        /* Área do Kanban */
+        .kanban-board {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        /* Colunas */
+        .column {
+            background-color: var(--board-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            width: 30%;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+        }
+
+        .column-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+        }
+        
+        .column-header h2 { font-size: 1.2rem; }
+        .btn-config { font-size: 0.8rem; padding: 5px 10px; }
+
+        /* Lista de Tarefas */
+        .task-list {
+            flex-grow: 1;
+            overflow-y: auto;
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .task {
+            background-color: var(--task-bg);
+            border: 1px solid var(--border-color);
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .task h3 { font-size: 1rem; margin-bottom: 5px; }
+        .task p { font-size: 0.9rem; }
+
+        .btn-add { width: 100%; padding: 10px; margin-top: auto; }
+
+        /* Rodapé com botões de ação global */
+        .action-footer { display: flex; gap: 15px; }
+
+        /* Impressão (Salvar em PDF) */
+        @media print {
+            .header-buttons, .btn-config, .btn-add, .action-footer { display: none; }
+            body { background-color: white; color: black; }
+            .column { border: 1px solid black; }
+        }
