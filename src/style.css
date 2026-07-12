@@ -52,22 +52,26 @@
 
         /* Área do Kanban */
         .kanban-board {
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;       /* Garante o alinhamento lado a lado */
+        justify-content: fill;     /* Distribui o espaço entre elas */
+        gap: 16px;                 /* Cria um espaçamento entre os quadros */
+        width: 100%;
+        align-items: flex-start;   /* Alinha o topo delas */
+        box-sizing: border-box;
         }
 
         /* Colunas */
         .column {
-            background-color: var(--board-bg);
-            border: 2px solid var(--border-color);
-            border-radius: 8px;
-            width: 30%;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            padding: 10px;
+        background-color: var(--board-bg);
+        border: 2px solid var(--border-color);
+        border-radius: 8px;
+        flex: 1; /* Faz as 4 colunas dividirem o espaço igualmente */
+        min-width: 220px; /* Garante que elas não esmaguem em telas menores */
+        min-height: 300px; /* Mantém uma altura mínima para visualização */
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
         }
 
         .column-header {
@@ -102,9 +106,11 @@
         .task p { font-size: 0.9rem; }
 
         .btn-add { width: 100%; padding: 10px; margin-top: auto; }
-
-        /* Rodapé com botões de ação global */
-        .action-footer { display: flex; gap: 15px; }
+        .global-actions {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
 
         /* Impressão (Salvar em PDF) */
         @media print {

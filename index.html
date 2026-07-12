@@ -17,46 +17,48 @@
     </header>
 
     <main class="kanban-board">
-        <div class="column" id="col-todo">
-            <div class="column-header">
-                <h2>A fazer</h2>
-                <button class="btn-config" onclick="configColumn('todo-list')">Configs</button>
-            </div>
-            <div class="task-list" id="todo-list"></div>
-            <button class="btn-add" onclick="createTask('todo-list')">Criar tarefa</button>
-        </div>
-
-        <div class="column" id="col-progress">
-            <div class="column-header">
-                <h2>Em progresso</h2>
-                <button class="btn-config" onclick="configColumn('progress-list')">Configs</button>
-            </div>
-            <div class="task-list" id="progress-list"></div>
-            <button class="btn-add" onclick="createTask('progress-list')">Criar tarefa</button>
-        </div>
-
-        <div class="column" id="col-done">
-            <div class="column-header">
-                <h2>Finalizado</h2>
-                <button class="btn-config" onclick="configColumn('done-list')">Configs</button>
-            </div>
-            <div class="task-list" id="done-list"></div>
-            <button class="btn-add" onclick="createTask('done-list')">Criar tarefa</button>
-        </div>
-    </main>
-
-    <div class="action-footer">
-        <button onclick="saveBoard()">Salvar</button>
-        <button onclick="deleteAllTasks()">Deletar</button>
-    </div>
 
     <div class="column" id="col-backlog">
-    <div class="column-header">
-        <h2>Backlog</h2>
-        <button class="btn-config" onclick="configColumn('backlog-list')">Configs</button>
+        <div class="column-header">
+            <h2>Backlog</h2>
+            <button class="btn-config" onclick="configColumn('backlog-list')">Configs</button>
+        </div>
+        <div class="task-list" id="backlog-list"></div>
+        <button class="btn-add" onclick="createTask('backlog-list')">Criar tarefa</button>
     </div>
-    <div class="task-list" id="backlog-list"></div>
-    <button class="btn-add" onclick="createTask('backlog-list')">Criar tarefa</button>
+
+    <div class="column" id="col-todo">
+        <div class="column-header">
+            <h2>A fazer</h2>
+            <button class="btn-config" onclick="configColumn('todo-list')">Configs</button>
+        </div>
+        <div class="task-list" id="todo-list"></div>
+        <button class="btn-add" onclick="createTask('todo-list')">Criar tarefa</button>
+    </div>
+
+    <div class="column" id="col-progress">
+        <div class="column-header">
+            <h2>Em progresso</h2>
+            <button class="btn-config" onclick="configColumn('progress-list')">Configs</button>
+        </div>
+        <div class="task-list" id="progress-list"></div>
+        <button class="btn-add" onclick="createTask('progress-list')">Criar tarefa</button>
+    </div>
+
+    <div class="column" id="col-done">
+        <div class="column-header">
+            <h2>Finalizado</h2>
+            <button class="btn-config" onclick="configColumn('done-list')">Configs</button>
+        </div>
+        <div class="task-list" id="done-list"></div>
+        <button class="btn-add" onclick="createTask('done-list')">Criar tarefa</button>
+    </div>
+
+</main>
+
+<div class="global-actions">
+    <button class="btn-footer" onclick="saveBoard()">Salvar</button>
+    <button class="btn-footer" onclick="deleteAllTasks()">Deletar</button>
 </div>
 </body>
 </html>
