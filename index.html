@@ -49,5 +49,14 @@
         <button onclick="saveBoard()">Salvar</button>
         <button onclick="deleteAllTasks()">Deletar</button>
     </div>
+
+    <div class="column" id="col-backlog">
+    <div class="column-header">
+        <h2>Backlog</h2>
+        <button class="btn-config" onclick="configColumn('backlog-list')">Configs</button>
+    </div>
+    <div class="task-list" id="backlog-list"></div>
+    <button class="btn-add" onclick="createTask('backlog-list')">Criar tarefa</button>
+</div>
 </body>
 </html>
