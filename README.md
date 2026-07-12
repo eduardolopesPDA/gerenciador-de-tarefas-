@@ -17,26 +17,26 @@ JavaScript <img width="30" height="30" alt="image" src="https://github.com/user-
 </h1>
 Utilizar o gerenciador é uma experiência intuitiva, pensada para que você perca menos tempo organizando e mais tempo realizando. Confira o passo a passo:
 
-<h2>1. Estrutura do Quadro</h2>
-Ao acessar o painel, você encontrará três colunas principais que representam o seu fluxo de trabalho:
+## 1. Estrutura do Quadro
+Ao acessar o painel, você encontrará quatro colunas principais posicionadas lado a lado, que ditam de forma ágil o ciclo de vida completo do seu fluxo de trabalho:
 
-Tarefas: Onde ficam as demandas que ainda vão ser iniciadas.
+* **Backlog:** Repositório inicial para armazenar ideias, novas demandas e requisitos que ainda passarão por triagem.
+* **A fazer:** Fluxo de entrada para as tarefas selecionadas e prontas para execução imediata no ciclo atual.
+* **Em progresso:** Foco operacional imediato, mapeando tudo o que está sob desenvolvimento ativo ou execução.
+* **Finalizado:** O histórico consolidado de todas as suas entregas concluídas com sucesso.
 
-Em Andamento: Onde você irá colocar as tarefas que estão sendo executadas no momento.
+## 2. Criando Tarefas
+Para adicionar um novo item, basta localizar o botão **"Criar tarefa"** posicionado estrategicamente na base de qualquer uma das quatro colunas. Ao clicar, o sistema abrirá caixas de diálogo para que você possa definir o **título da tarefa** e as suas respectivas **especificações (descrição)**. 
 
-Concluídas: Onde você coloca as tarefas que já finalizou.
+A inclusão respeita rigorosamente a ordem cronológica de chegada: a primeira tarefa inserida permanece no topo fixo da coluna, enquanto os cards subsequentes são empilhados organizadamente logo abaixo dela.
 
-<h2>2. Criando Tarefas</h2>
-Para adicionar um novo item, basta localizar o botão "Criar tarefa" que fica na parte inferior de qualquer uma das colunas. Ao clicar, um novo card será adicionado ao quadro selecionado. aí você irá conseguir colocar o titulo da tarefa e se quiser, colocar as especificações dessa tarefa(descrição).
+## 3. Movimentação Ágil (Drag and Drop)
+A essência do nosso gerenciador é a praticidade e simplicidade operacional. Você não precisa reescrever ou apagar itens para mudar o status de execução:
 
-<h2>3. Movimentação Ágil (Drag and Drop)</h2>
-A essência do nosso gerenciador é a praticidade e simplicidade. Você não precisa deletar ou recriar itens para mudar seu status:
+* **Clique, arraste e solte:** Mova qualquer card de forma totalmente fluida, seja ordenando de cima para baixo dentro de uma mesma lista ou transferindo de maneira transversal entre qualquer um dos quatro quadros. O sistema atualiza a posição e os estilos dinamicamente durante o arrasto!
 
-Clique, arraste e solte: Mova qualquer card entre as colunas conforme o progresso da sua tarefa. O sistema atualizará o status da sua tarefa automaticamente!
+## 4. Gestão e Configurações de Tarefas
+Caso precise ajustar detalhes textuais das suas demandas:
 
-<h2>4. Gestão de Tarefas</h2>
-Caso precise ajustar detalhes ou remover uma tarefa:
-
-Clique nos três pontinhos localizados no canto superior direito do card da tarefa.
-
-No menu suspenso, selecione "Editar" para alterar as informações ou "Excluir" para remover a tarefa permanentemente!
+* **Painel de Configurações da Coluna:** Clique no botão **"Configs"** localizado no cabeçalho da coluna desejada. O sistema informará a quantidade de itens presentes no quadro e solicitará o número da tarefa que você deseja editar (de 1 até o limite da lista). 
+* **Edição de Dados:** Ao selecionar o número correspondente ao card, você poderá alterar o título e a descrição da tarefa de forma imediata e em tempo real.
