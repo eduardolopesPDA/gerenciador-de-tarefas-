@@ -127,5 +127,5 @@ function deleteAllTasks() {
         document.getElementById('todo-list').innerHTML = '';
         document.getElementById('progress-list').innerHTML = '';
         document.getElementById('done-list').innerHTML = '';
-    }
+    }  //teste da esteira do git hub actions
 }
